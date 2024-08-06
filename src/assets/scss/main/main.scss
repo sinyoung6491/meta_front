@@ -1,0 +1,295 @@
+.main_wrap {
+    display: flex;
+    background-image: url("../../img/main/mainback.png");
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    font-family: 'Pretendard';
+    flex-direction: column;
+    padding-bottom: 300px;
+
+
+    .main01_wrap {
+        width: 100%;
+    }
+
+    .main02_wrap {
+        width: 1110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 55px;
+
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+
+            .p {
+                font-size: 28px;
+                color: #F87980;
+                font-weight: 600;
+                margin-top: 9px;
+            }
+
+            .underline01 {
+                width: 350px;
+                border: 1px solid #F2B4C1;
+                margin-top: 9px;
+            }
+
+            .underline02 {
+                width: 540px;
+                border: 1px solid #F2B4C1;
+                margin-top: 9px;
+            }
+
+        }
+
+        .container01 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 64px;
+
+            .proprity {
+                display: flex;
+                justify-content: left;
+                flex-direction: column;
+
+                .text {
+                    font-size: 28px;
+                    color: #444444;
+                    font-weight: normal;
+                }
+
+                .goal {
+                    display: flex;
+                    margin-top: 16px;
+                    font-size: 28px;
+                    color: #444444;
+                    font-weight: normal;
+                    align-items: center;
+
+                    .date_left {
+                        margin-right: 24px;
+                    }
+
+                    .date {
+                        font-size: 36px;
+                        color: #444444;
+                    }
+
+                    .goal_right {
+                        margin-left: 24px;
+                    }
+                }
+
+                .togle {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 36px;
+
+                    .content01 {
+                        display: flex;
+
+
+                        .icon {
+                            height: 28px;
+                            width: 28px;
+                            margin-right: 10px;
+                        }
+
+                        .detail {
+                            font-size: 20px;
+                            font-weight: normal;
+                            color: #444444;
+                        }
+                    }
+
+                    .content02 {
+                        display: flex;
+                        margin-top: 14px;
+
+                        .icon {
+                            height: 28px;
+                            width: 28px;
+                            margin-right: 10px;
+                        }
+
+                        .detail {
+                            font-size: 20px;
+                            font-weight: normal;
+                            color: #444444;
+                        }
+                    }
+
+                    .content03 {
+                        display: flex;
+                        margin-top: 14px;
+
+                        .icon {
+                            height: 28px;
+                            width: 28px;
+                            margin-right: 10px;
+                        }
+
+                        .detail {
+                            font-size: 20px;
+                            font-weight: normal;
+                            color: #444444;
+                        }
+                    }
+
+                }
+
+            }
+
+            .go_to_goal {
+                display: flex;
+                flex-direction: column;
+
+                .goalbtn {
+                    width: 316px;
+                    height: 56px;
+                    background-color: #F87980;
+                    color: #FFFFFF;
+                    border-radius: 20px;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+
+                .goalbtn:hover {
+                    cursor: pointer;
+                }
+
+                .write {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 24px;
+
+                    .pen {
+                        width: 51px;
+                        height: 51px;
+                        margin-right: 8px;
+                    }
+
+                    .new {
+                        color: #F87980;
+                        font-size: 20px;
+                        margin-top: -5px;
+                        font-weight: normal;
+                    }
+                }
+
+                .write:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .circumstance {
+            .content03 {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 64px;
+                font-weight: normal;
+
+                .h1 {
+                    font-size: 28px;
+                    font-weight: normal;
+                    color: #444444;
+                }
+
+                .content04 {
+                    display: flex;
+                    align-items: center;
+
+                    .more {
+                        font-size: 16px;
+                        color: #444444;
+                        font-weight: normal;
+                    }
+
+                    .detail {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .content04:hover {
+                    cursor: pointer;
+                }
+
+            }
+
+            .container02 {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 27px;
+                margin-left: -15px;
+                margin-right: -15px;
+
+                .box {
+                    width: 255px;
+                    height: 120px;
+                    margin-right: 15px;
+                    margin-left: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: inset -12.5px 12.5px 12.5px #FFFFFF;
+                    box-shadow: inset 12.5px -12.5px 12.5px #C2C2C21A;
+                    border: 2px solid #FFFFFF;
+                    border-radius: 20px;
+                    cursor: pointer;
+
+                    .h3 {
+                        font-size: 20px;
+                        font-weight: normal;
+                        color: #444444;
+                    }
+                }
+            }
+
+            .circumstance_box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 60px;
+                width: 1110px;
+                height: 256px;
+                border: 2px solid #FFFFFF;
+                box-shadow: inset -12.5px 12.5px 12.5px #FFFFFF;
+                box-shadow: inset 12.5px -12.5px 12.5px #C2C2C21A;
+                border-radius: 20px;
+                margin-top: 36px;
+                cursor: pointer;
+
+                .text {
+                    display: flex;
+                    flex-direction: column;
+
+                    .h1 {
+                        font-size: 28px;
+                        color: #444444;
+                        font-weight: normal;
+                    }
+
+                    .p {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+
+                .line {
+                    width: 153px;
+                    height: auto;
+                }
+            }
+
+        }
+
+    }
+}

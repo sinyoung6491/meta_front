@@ -1,0 +1,47 @@
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="29" fill="#151515"/>
+<g id="Frame 41">
+<rect width="848" height="1248" transform="translate(-264 -838)" fill="#404040"/>
+<g id="1_1.&#237;&#149;&#160; &#236;&#157;&#188; &#236;&#152;&#181;&#236;&#133;&#152; &#235;&#169;&#148;&#235;&#137;&#180;" clip-path="url(#clip0_411_518)">
+<rect width="375" height="812" transform="translate(-24 -593)" fill="white"/>
+<rect id="dimmed50%" opacity="0.5" x="-24" y="-593" width="375" height="813" fill="black"/>
+<g id="bottomHalfView" clip-path="url(#clip1_411_518)">
+<g id="halfViewArea" filter="url(#filter0_d_411_518)">
+<path d="M-24 -498C-24 -505.732 -17.732 -512 -10 -512H337C344.732 -512 351 -505.732 351 -498V234.393H-24V-498Z" fill="#282828"/>
+</g>
+<g id="feedOptionMenuInbox" clip-path="url(#clip2_411_518)">
+<g id="feedOptionMenu RoutineIcon">
+<g id="Oval">
+<circle cx="14" cy="14.2812" r="14" fill="#696EF5"/>
+<circle cx="14" cy="14.2812" r="13.7667" stroke="black" stroke-opacity="0.06" stroke-width="0.466667"/>
+</g>
+<g id="Group 3">
+<path id="Ellipse 6" d="M20.4829 14.2812C20.4829 17.8616 17.5804 20.7641 14 20.7641C10.4196 20.7641 7.51709 17.8616 7.51709 14.2812C7.51709 10.7008 10.4196 7.79831 14 7.79831" stroke="white" stroke-width="1.8"/>
+<path id="Vector 3" d="M11.0454 12.6452L13.8206 15.4205L18.9144 10.3267" stroke="white" stroke-width="1.8"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_411_518" x="-34" y="-522" width="395" height="766.393" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.26 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_411_518"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_411_518" result="shape"/>
+</filter>
+<clipPath id="clip0_411_518">
+<rect width="375" height="812" fill="white" transform="translate(-24 -593)"/>
+</clipPath>
+<clipPath id="clip1_411_518">
+<rect width="375" height="732" fill="white" transform="translate(-24 -512)"/>
+</clipPath>
+<clipPath id="clip2_411_518">
+<rect width="375" height="48" fill="white" transform="translate(-24 -11)"/>
+</clipPath>
+</defs>
+</svg>

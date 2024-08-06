@@ -1,0 +1,16 @@
+<svg width="375" height="104" viewBox="0 0 375 104" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="ln0lve196a" d="M0 0h375v104H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#191919" xlink:href="#ln0lve196a"/>
+        <text font-family="Poppins-Black, Poppins" font-size="22" font-weight="800" letter-spacing=".917">
+                    <tspan x="102.376" y="69" fill="#FFF">STICKER</tspan>
+                    <tspan x="203.327" y="69" fill="#4355E4"> </tspan>
+                    <tspan x="207.983" y="69" fill="#5B6CFC">SHOP</tspan>
+                </text>
+        <text font-family="Poppins-Black, Poppins" font-size="16" font-weight="800" fill="#5A6CFC">
+                    <tspan x="145" y="41">todo mate</tspan>
+                </text>
+    </g>
+</svg>

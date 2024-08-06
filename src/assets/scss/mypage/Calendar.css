@@ -1,0 +1,87 @@
+/* 전체 캘린더 */
+.react-calendar {
+    border: none;
+    font-family: 'Pretendard'; 
+    width: 489px !important;
+    height: 410px !important;
+    background-color: transparent; 
+    border-radius: 10px; 
+    margin-bottom: 105px;
+    margin-top: -15px;
+}
+
+
+
+/* 현재 날짜 */
+.react-calendar__tile--now {
+    background: none !important;
+}
+
+.react-calendar__tile--now .custom-tile {
+    color: #F87980;
+    background: none;
+}
+
+/* 선택된 날짜 */
+.react-calendar__tile--active {
+    background: none !important;
+}
+
+.react-calendar__tile--active .custom-tile {
+    background: #F87980;
+    color: white;
+    border-radius: 50%;
+}
+
+/* 요일 헤더 */
+.react-calendar__month-view__weekdays__weekday {
+    color: #444444;
+    font-weight: normal;
+    font-size: 23px;
+    text-decoration: none !important; /* !important 사용 */
+}
+
+/* 요일 텍스트에 밑줄이 생기지 않도록 추가적인 스타일링 */
+.react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+
+/* 기본 날짜 텍스트 숨기기 */
+.react-calendar__tile abbr {
+    display: none;
+}
+
+/* 사용자 정의 타일 스타일 */
+.custom-tile {
+    height: 53px;
+    max-width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    color: #444444;
+
+}
+
+/* 네비게이션 버튼 (왼쪽, 오른쪽 화살표)은 클릭할 수 있도록 설정 */
+.react-calendar__navigation button {
+    pointer-events: auto; /* 클릭 이벤트를 허용 */
+    color: #444444;
+    min-width: 44px;
+    background: none;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+/* 년도와 월 부분의 클릭을 비활성화 */
+.react-calendar__navigation__label {
+    pointer-events: none !important; /* 클릭 이벤트를 차단 */
+    cursor: default; /* 기본 커서로 변경 */
+}
+

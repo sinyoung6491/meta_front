@@ -1,0 +1,7 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 22">
+<rect width="20" height="20" rx="10" fill="#262626"/>
+<path id="line" d="M6.25 6.25L13.75 13.75" stroke="white" stroke-width="1.4"/>
+<path id="line_2" d="M6.25 13.75L13.75 6.25" stroke="white" stroke-width="1.4"/>
+</g>
+</svg>

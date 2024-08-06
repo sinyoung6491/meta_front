@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(252, 252, 252, 0.5); /* 배경색을 50% 투명도로 설정 */
+    position: fixed; /* 고정 위치로 설정 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* 다른 콘텐츠 위에 표시되도록 z-index 설정 */
+
+    .logo img {
+    width: 61.8px;
+    height: 40px; 
+    cursor: pointer;
+    margin-left: 180px;
+    }
+  }
+  
+  .menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 80px;
+  }
+
+  .right {
+    display: flex;
+    padding: 10px 80px;
+
+    .mypage {
+      font-size: 20px;
+      cursor: pointer;
+      margin-right: 60px;
+      font-weight: 600;
+    }
+  
+    .Logout {
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    .header {
+      padding: 10px;
+    }
+  
+    .logo img {
+      height: 30px; /* 작은 화면에서 로고 이미지의 높이를 조정합니다 */
+    }
+  
+    .menu-icon, .close-icon {
+      font-size: 20px;
+    }
+  }
+  
+  /* nav */
+
+.nav_wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #252525;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+    
+    .close {
+        width: 24px;
+        height: 24px;
+        margin-top: 5%;
+        margin-left: 90%;
+    }
+
+    .close:hover{
+        cursor: pointer;
+    }
+
+    .home {
+        font-size: 64px;
+        color: #FFFFFF;
+        margin-top: 100px;
+        margin-left: 165px;
+        font-weight: bold;
+    }
+
+    .home:hover {
+        cursor: pointer;
+        color: #F87980;
+    }
+
+    .circumstance {
+        font-size: 64px;
+        color: #FFFFFF;
+        margin-top: 64px;
+        margin-left: 165px;
+        font-weight: bold;
+    }
+
+    .circumstance:hover {
+        cursor: pointer;
+        color: #F6A47C;
+    }
+
+    .goal {
+        font-size: 64px;
+        color: #FFFFFF;
+        margin-top: 64px;
+        margin-left: 165px;
+        font-weight: bold;
+    }
+
+    .goal:hover {
+        cursor: pointer;
+        color: #B4E1F8;
+    }
+
+    .mypagemenu {
+        font-size: 64px;
+        color: #FFFFFF;
+        margin-top: 64px;
+        margin-left: 165px;
+        font-weight: bold;
+        margin-bottom: 232px;
+    }
+
+    .mypagemenu:hover {
+        cursor: pointer;
+        color: #E6F7CD;
+    }
+
+}
+
+.header:hover + .nav_wrap,
+.nav_wrap.visible {
+    display: block;
+}

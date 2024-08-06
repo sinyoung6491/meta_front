@@ -1,0 +1,177 @@
+.sign_wrap {
+    display: flex;
+    background-color: #fcfcfc;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+
+    .image_pulse {
+        width: 50%;
+        height: auto;
+    } //signin01
+
+    //signin 02
+    .signin02_wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fcfcfc;
+        height: auto;
+        width: 50%;
+        font-family: 'Pretendard';
+        flex-direction: column;
+        padding: 100px;
+
+
+        .enterfield {
+            display: flex;
+            width: 546px;
+            justify-content: left;
+            flex-direction: column;
+
+            .h1 {
+                font-size: 28px;
+                font-weight: 600;
+                margin-top: 126px;
+            }
+
+            .username {
+                width: 546px;
+                height: 72px;
+                border-radius: 12px;
+                font-size: 20px;
+                border: 1px solid #ECBFC2;
+                padding-left: 19px;
+                font-weight: 600;
+                margin-top: 36px;
+            }
+
+            .pw {
+                width: 546px;
+                height: 72px;
+                border-radius: 12px;
+                font-size: 20px;
+                border: 1px solid #ECBFC2;
+                padding-left: 19px;
+                font-weight: 600;
+                margin-top: 24px;
+            }
+
+            .or {
+                font-size: 14px;
+                font-weight: 400;
+                color: #9F9F9F;
+                margin-top: 12px;
+            }
+
+            .pw2 {
+                width: 546px;
+                height: 72px;
+                border-radius: 12px;
+                font-size: 20px;
+                border: 1px solid #ECBFC2;
+                padding-left: 19px;
+                font-weight: 600;
+                margin-top: 24px;
+            }
+
+
+            .signbtn {
+                width: 546px;
+                height: 72px;
+                border-radius: 12px;
+                font-size: 20px;
+                font-weight: normal;
+                color: #FFFFFF;
+                background-color: #F87980;
+                margin-top: 42px;
+            }
+
+            .signbtn:hover {
+                cursor: pointer;
+            }
+        }
+
+
+        .line {
+            display: flex;
+            width: 546px;
+            justify-content: space-between;
+            margin-top: 24px;
+
+            .hr {
+                width: 260.5px;
+                border: 1px solid #EEEEEE;
+            }
+
+            .or {
+                font-size: 14px;
+                font-weight: 400;
+                color: #9F9F9F;
+            }
+
+        }
+
+        .googlebtn {
+            width: 546px;
+            height: 72px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFEFF;
+            border: 1px solid #EEEEEE;
+            margin-top: 24px;
+
+            .googlelogo{
+                width: 46px;
+                height: 46px;
+                margin-right: 24px;
+            }
+        }
+
+        .googlebtn:hover{
+            cursor: pointer;
+        }
+
+        .change_area {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+
+            .optional {
+                font-size: 16px;
+                color: #444444;
+                font-weight: 600;
+                margin-right: 24px;
+            }
+
+            .turn_login {
+                font-size: 20px;
+                color: #F2B4C1;
+                font-weight: 600;
+                text-decoration: underline;
+            }
+
+            .turn_login:hover{
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 1250px) {
+    .image_pulse {
+        display: none;
+    }
+    .signin02_wrap {
+        width: 100%;
+    }
+}

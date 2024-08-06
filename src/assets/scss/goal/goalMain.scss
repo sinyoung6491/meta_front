@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../../font/Pretendard-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../../font/Pretendard-Regular.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../../font/Pretendard-SemiBold.woff') format('woff');
+  font-weight: normal;
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Pretendard';
+}
+.goal-main {
+  padding: 0 100px;
+  
+  p{
+    font-size: 30px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .goal-header {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 78px;
+    
+
+    h1 {
+      font-size: 28px;
+      color: #F87980;
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #F87980;
+      margin-left: 20px;
+    }
+  }
+  .goal-check {
+    margin-bottom: 20px;
+
+    .check-here{
+      display: flex;
+      align-items: center;
+      justify-content:flex-start;
+    }
+    h3 {
+      font-size: 28px;
+      color: #444444;
+      margin-bottom: 10px;
+    }
+
+    h4{
+      font-size: 20px;
+      color: #444444;
+      margin-left: 36px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      .goal-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 20px;
+        margin-left: -20px;
+        margin-top: 20px;
+        text-align: left;
+        border-bottom: none;
+      }
+      
+      .priority {
+        background: #F87980;
+        color: #fff;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+      }
+      
+    }
+  }
+.goal-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.goal-count-sort-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.goal-count {
+  font-size: 16px;
+  color: #444444;
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 10px;
+
+  button {
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #9F9F9F;
+    background-color: #fff;
+    border-radius: 4px;
+
+    &:hover {
+      color: #444444;
+    }
+
+    &.active {
+      color: #444444;
+    }
+  }
+}
+  .goal-list, .execute {
+    
+    width: 50%;
+    padding: 20px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  .goal-list{
+    height: auto;
+    .goal-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      margin-top: 10px;
+    }
+  }
+  .execute{
+    height: 250px;
+    box-shadow: 0 0 20px rgba(170, 170, 170, 0.2);
+    border-radius: 20px;
+    margin-left: 60px;
+    h2{
+      font-size: 28px;
+      padding: 0 10px;
+    }
+    .priority {
+      background: #D3DCF2;
+      color: #fff;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+    .goal-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      padding: 5px;
+      margin-top: 10px;
+    }
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .goal-date, .goal-title, .goal-action {
+      flex: 1;
+      text-align: left;
+    }
+
+    .goal-date {
+      color: #444444;
+    }
+
+    .goal-title {
+      color: #444444;
+    }
+
+    .goal-action {
+      color: #444444;
+    }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    .new-btn {
+      padding: 15px 30px;
+      font-size: 20px;
+      color: #fff;
+      background-color: #F87980;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+    }
+    .new-btn img{
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+

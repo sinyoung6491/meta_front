@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'B';
+    src: url('../../font/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'R';
+    src: url('../../font/Pretendard-Regular.woff') format('woff');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'S';
+    src: url('../../font/Pretendard-SemiBold.woff') format('woff');
+    font-weight: normal;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    width: 540px;
+    height: 316px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    .X_div{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .popup_icon{
+        width: 48px;
+        height: 48px;
+    }
+    .popup_X{
+      width: 24px;
+      height: 24px;
+      margin-top: 16px;
+      margin-right: 18px;
+    }
+    p{
+        font-family: 'R';
+        font-size: 16px;
+        color: #000000;
+        margin-top: 28px;
+        line-height: 25px;
+    }
+  }
+  
+  .popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 58px;
+  }
+  
+  .popup-buttons button {
+    width: 210px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: none;
+    border-radius: 16px;
+    font-family: 'S';
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup-buttons button:first-of-type {
+    background-color: #ffffff; /* 예 버튼 색상 */
+    color: #F87980;
+    border: 1px solid #F87980;
+  }
+  
+  .popup-buttons button:last-of-type {
+    background-color: #F87980; /* 아니요 버튼 색상 */
+    color: white;
+  }
+  

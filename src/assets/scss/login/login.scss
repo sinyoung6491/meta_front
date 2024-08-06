@@ -1,0 +1,70 @@
+.login_wrap {
+    background-color: #fcfcfc;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    padding: 50px;
+
+    >div {
+        width: 1440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .startlogo{
+            width: 342.46px;
+            margin-top: 66px;
+        }
+
+        p {
+            font-size: 28px;
+            font-weight: normal;
+            margin-top: 24.4px;
+            color: #444444;
+        }   
+        h3 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-top: 106px;
+            color: #444444;
+        }
+
+        .trybtn {
+            width: 546px;
+            height: 72px;
+            font-size: 20px;
+            font-weight: normal;
+            color: #FFFFFF;
+            background-color: #D3E4B0;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+
+        .trybtn:hover {
+            cursor: pointer;
+
+        }
+
+        .alreadybtn {
+            width: 546px;
+            height: 72px;
+            font-size: 20px;
+            font-weight: normal;
+            color: #D3E4B0;
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            border: 1px solid #D3E4B0;
+            margin-top: 32px;
+        }
+
+        .alreadybtn:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+/* pages > login > Login */

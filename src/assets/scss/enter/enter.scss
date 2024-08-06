@@ -1,0 +1,214 @@
+.enter_wrap {
+    background-color: #fcfcfc;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    padding: 50px;
+
+    >div {
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .h1 {
+            font-size: 28px;
+            margin-top: 30px;
+            font-weight: normal;
+        }
+
+        .enterfield {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+
+            .id {
+                width: 546px;
+                height: 72px;
+                border-radius: 12px;
+                font-size: 20px;
+                border: 1px solid #ECBFC2;
+                padding-left: 19px;
+                font-weight: 600;
+                margin-top: 36px;
+            }
+
+            .pw {
+                width: 546px;
+                height: 72px;
+                border-radius: 12px;
+                font-size: 20px;
+                border: 1px solid #ECBFC2;
+                padding-left: 19px;
+                font-weight: 600;
+                margin-top: 24px;
+            }
+
+            .save {
+                display: flex;
+                align-items: center;
+                margin-top: 36px;
+
+                .checkbox {
+                    width: 24px;
+                    height: 24px;
+                    border: 1px solid #ECBFC2;
+                    background-color: #FFFFFF;
+                    border-radius: 4px;
+                    margin-right: 12px;
+                }
+
+                .idsave {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #9F9F9F;
+                }
+            }
+        }
+
+        .loginbtn {
+            width: 546px;
+            height: 72px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: normal;
+            color: #FFFFFF;
+            background-color: #F2B4C1;
+            margin-top: 36px;
+        }
+
+        .loginbtn:hover{
+            cursor: pointer;
+        }
+
+        .line {
+            display: flex;
+            width: 546px;
+            justify-content: space-between;
+            margin-top: 24px;
+
+            .hr {
+                width: 260.5px;
+                border: 1px solid #EEEEEE;
+            }
+
+            .or {
+                font-size: 14px;
+                font-weight: 600;
+                color: #9F9F9F;
+            }
+        }
+
+        .googlebtn {
+            width: 546px;
+            height: 72px;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFEFF;
+            border: 1px solid #EEEEEE;
+            margin-top: 24px;
+
+            .googlelogo{
+                width: 46px;
+                height: 46px;
+                margin-right: 24px;
+            }
+        }
+
+        .googlebtn:hover{
+            cursor: pointer;
+        }
+
+        .option {
+            width: 546px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 18px;
+            color: #444444;
+            margin-top: 36px;
+            margin-bottom: 50px;
+
+            .find {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .signup {
+                font-weight: 600;
+            }
+
+            .signup:hover{
+                cursor: pointer;
+                
+            }
+            
+
+            .find_id {
+                margin-right: 24px;
+                font-weight: 600;
+            }
+
+            .find_id:hover{
+                cursor: pointer;
+            }
+
+            .find_pw {
+                margin-left: 24px;
+                font-weight: 600;
+            }
+
+            .find_pw:hover{
+                cursor: pointer;
+            }
+        }
+        
+
+    }
+
+}
+
+/* pages > enter > Enter */
+
+.footer_wrap {
+    background-color: #fcfcfc;
+    height: 97px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    flex-direction: column;
+
+    .line {
+        width: 1440px;
+        border: 1px solid #EEEEEE;
+    }
+
+    .contents {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16.625px;
+        margin-bottom: 34px;
+
+        .p {
+            font-size: 16px;
+            color: #9F9F9F;
+            margin: 17.375px;
+        }
+    }
+
+    
+}
+
+/* components > enter > Footer */

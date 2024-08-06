@@ -1,0 +1,142 @@
+.circumstance_cognition_wrap {
+    display: flex;
+    background-color: #FCFCFC;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    flex-direction: column;
+    padding: 100px;
+    
+
+    .main {
+        font-size: 28px;
+        font-weight: normal;
+        color: #444444;
+    }
+
+    .hr {
+        width: 1110px;
+        border: 1px solid #D3DCF2;
+        margin-top: 36px;
+    }
+
+    .bookshelf {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 100px;
+        height: 300px;
+        gap: 10px;
+
+        .book-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform-origin: bottom;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+
+            .book01{
+                transform: rotate(0deg);
+            }
+    
+            .book02{
+                transform: rotate(0deg);
+            }
+    
+            .book03 {
+                transform: rotate(0deg);
+            }
+
+            .book-text, .book-text01, .book-text02 {
+                position: absolute;
+                top: 20px; 
+                left: 50%;
+                transform: translateX(-50%);
+              }
+            
+              .book-text02 {
+                left: 30%;
+                transform: rotate(-6deg);
+              }
+        }
+
+    }
+
+    .date {
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+
+    .p {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .button {
+        width: 150px;
+        height: 56px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFFFFF;
+        background-color: #F87980;
+        cursor: pointer;
+        margin-top: 20px;
+
+        .pen {
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+        }
+    }
+}
+
+
+/* Swiper 스타일 */
+.swiper-button-next, .swiper-button-prev {
+    margin-top: -50px;
+    color: #FFFFFF;
+    background-color: #F2B4C1;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+.swiper-pagination {
+    bottom: 80px;
+    text-align: center;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #EEEEEE;
+    width: 12px; 
+    height: 12px;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #D3DCF2;
+  }
+
+  .swiper-container {
+    width: 1000px;
+    height: 500px;
+  }

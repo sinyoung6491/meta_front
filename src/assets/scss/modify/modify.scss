@@ -1,0 +1,160 @@
+.modify_wrap {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard';
+    padding: 500px;
+    background-color: #FCFCFC;
+
+    .gradiant{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .profile_box {
+        z-index: 100;
+        width: 1000px;
+        height: 796px;
+        border-radius: 8px;
+        border: 2px solid #FFFFFF;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .h1 {
+        font-size: 28px;
+        font-weight: normal;
+        margin-top: 36px;
+    }
+
+    .h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 24px;
+    }
+
+    .hr {
+        border: 1px solid #EEEEEE;
+        width: 1037px;
+        margin-top: 24px;
+    }
+
+    .p {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: 36px;
+    }
+    
+    .profile_img {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-top: 36px; 
+        form{
+            margin-left: 200px;
+        }
+        #myPhoto{
+            width: 200px;
+            height: 200px;
+            border: 2px solid #E6F7CD;
+            border-radius: 50%;
+            position: relative;
+            background-size: cover;
+            background-image: url(../../img/mypage/profile.svg);
+        }
+
+        .Profile {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 2px solid #E6F7CD;
+            border-radius: 50%;
+            z-index: 998;
+        }
+
+        .img_default {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #E6F7CD;
+            border-radius: 50%;
+            position: relative;
+            left: -200px;
+        }
+
+        .mypage_image {
+            width: 170px;
+            height: 170px;
+            border: 2px solid #E6F7CD;
+            border-radius: 50%;
+        }
+
+        #add {
+            width: 238px;
+            height: 56px;
+            margin-left: -100px;
+        }
+
+        #remove {
+            width: 107px;
+            height: 56px;
+        }
+    }
+
+    .id_field, .say_field {
+        display: flex;
+
+        .inputbox {
+            width: 385px;
+            height: 56px;
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            border: 1px solid #EEEEEE;
+            padding: 18px;
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: 250px;
+            margin-top: 20px;
+        }
+    }
+
+    .done {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+
+        .apply {
+            background-color: #444444;
+            width: 200px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+
+        .cancel {
+            background-color: #444444;
+            width: 200px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            margin-left: 20px;
+            border-radius: 16px;
+            cursor: pointer;
+        }
+    }
+
+}
